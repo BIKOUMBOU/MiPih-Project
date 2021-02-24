@@ -72,23 +72,48 @@ body {
 <body>
 
 <div class="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
+  <a href="#home">Acceuil</a>
+  <a href="#news">Tableau de bord</a>
   <div class="dropdown">
     
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Diffuseur Technique
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
+      <a href="#">Gérer les sites</a>
+      <a href="#">Ajouter un nouveau site</a>
+      <a href="#">Mise à jour</a>
     </div>
+      
+      <button class="dropbtn">Consultant dsn
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Gérer </a>
+      <a href="#">Ajouter </a>
+      <a href="#">Mise à jour</a>
+    </div>
+      
+      <button class="dropbtn">Responsable projet
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Mes sites</a>
+      <a href="#">Nouveau site</a>
+      <a href="#">Mise à jour</a>
+    </div>
+    
   </div> 
 </div>
 
-<h3>Dropdown Menu inside a Navigation Bar</h3>
-<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+<div class="container-fluid">
+  <h3>Brand / Logo</h3>
+  <p>When using the .navbar-brand class on images, Bootstrap 4 will automatically style the image to fit the navbar.</p>
+</div> 
+    
+
+    
+    
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <title>MiPih|SUIVI INSTALLATION DSN</title>
   <meta charset="utf-8">
@@ -23,6 +23,10 @@
       <li class="nav-item">
       <a class="nav-link" href="#">Acceuil</a>
       </li>
+      
+     
+      
+      
       
       <li class="nav-item">
       <a class="nav-link" href="#">Diffuseur technique</a>
