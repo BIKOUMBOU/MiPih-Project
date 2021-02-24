@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Créer un compte</title>
+	<title>MiPih|Créer un compte</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
