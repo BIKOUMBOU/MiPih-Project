@@ -1,0 +1,95 @@
+*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*
+*                                                                                                                              *
+*                                                CREATION BASE DE DONNES SQL                                                   * *                                                                                                                              *
+*                                                                                                                              *
+*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*
+
+CREATE TABLE `suivi_dsn`.`site` ( 
+`id` INT NOT NULL AUTO_INCREMENT , 
+`priorite` VARCHAR(10) NULL , 
+`nom` VARCHAR(50) NULL , 
+`siren` VARCHAR(12) NULL , 
+`pret_install` VARCHAR(5) NULL , 
+`statut_hebergement` VARCHAR(10) NULL , 
+`acces` VARCHAR(2000) NULL , 
+`rp` VARCHAR(50) NULL , 
+`cons_dsn` VARCHAR(50) NULL , 
+`version_prodige` VARCHAR(15) NULL , 
+`version_agirh` VARCHAR(15) NULL , 
+`mirth` VARCHAR(10) NULL , 
+`ifp` VARCHAR(10) NULL , 
+`ws_ph7` INT(10) NULL , 
+`conf_prodige` VARCHAR(20) NULL , 
+`conf_agirh` VARCHAR(20) NULL , 
+`nom_abscence` VARCHAR(20) NULL , 
+`nom_statut` VARCHAR(20) NULL , 
+`nom_emploi` VARCHAR(20) NULL , 
+PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+
+
+*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*
+*                                                                                                                              *
+*                                                         CREATION TABLE SQL                                                   * *                                                                                                                              *
+*                                                                                                                              *
+*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*
+
+
+
+
+
+
+
+
+
+
+
+
+
+*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*
+*                                                                                                                              *
+*                                                        FONCTION INSERT SQL                                                   * *                                                                                                                              *
+*                                                                                                                              *
+*::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::*
+
+INSERT INTO `site` (
+`id`, 
+`priorite`, 
+`nom`, 
+`siren`, 
+`pret_install`, 
+`statut_hebergement`, 
+`acces`,
+`rp`,
+`cons_dsn`, 
+`version_prodige`, 
+`version_agirh`, 
+`mirth`, 
+`ifp`, 
+`ws_ph7`, 
+`conf_prodige`, 
+`conf_agirh`, 
+`nom_abscence`, 
+`nom_statut`, 
+`nom_emploi`) 
+
+VALUES (
+'001', 
+'1', 
+'Amien CHU', 
+'12345678', 
+'OUI', 
+'H', 
+NULL, 
+'Edourd LABESSE', 
+'Laurent TREMBOUTTE', 
+'20. 0. 1. 4', 
+'20. 0. 1. 4', 
+'OK', 
+'OK', 
+'OK', 
+'OK', 
+'OK', 
+'OK', 
+'OK', 
+'OK');
+
